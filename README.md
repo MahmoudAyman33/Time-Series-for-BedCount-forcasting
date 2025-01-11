@@ -14,7 +14,6 @@ This repository contains notebooks and evaluation metrics for forecasting the us
   - Implements AutoSARIMA for automated seasonal ARIMA model selection.
   - Provides a rolling 7-day forecast, recursively refitting models with updated data.
   - Outputs MAE and MSE metrics for error analysis.
-  - Generates interactive visualizations for actual vs forecasted values and error comparisons.
 
 - **Evaluation Metrics CSVs**:
   - **`evaluation_results_all_wards_holts.csv`**: Performance metrics for Holt's Winter models.
@@ -40,9 +39,4 @@ This repository contains notebooks and evaluation metrics for forecasting the us
 - **Error Metrics**: Both models output MAE and MSE values for each ward and forecasting model.
 - **Interactive Plots**: Displays actual vs forecasted values and comparative error bars for all wards.
 
-## How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/bed-usage-forecasting.git
-   cd bed-usage-forecasting
