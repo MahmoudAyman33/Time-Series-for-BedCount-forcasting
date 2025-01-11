@@ -4,12 +4,6 @@
 
 </div>
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square)](https://www.linkedin.com/in/mahmoud-ayman-311389263/)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square)](mailto:mahmoodabusaa9@gmail.com)
-
-</div>
 
 ---
 
@@ -49,5 +43,4 @@
 
 ---
 
-## 📂 **Repository Structure**
 
