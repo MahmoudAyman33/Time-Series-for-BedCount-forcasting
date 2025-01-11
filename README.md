@@ -1,42 +1,53 @@
-# Bed Usage Forecasting with Holt's Winter and AutoSARIMA
+<div align="center">
 
-This repository contains notebooks and evaluation metrics for forecasting the usage of hospital beds in different wards using **Holt's Winter Exponential Smoothing** and **AutoSARIMA** models. The project aims to provide accurate forecasts for the number of hours beds will be used over the next week, leveraging time series forecasting techniques.
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=4ECDC4&center=true&vCenter=true&repeat=true&width=800&lines=Time+Series+Forecasting+Project;Holt's+Winter+and+AutoSARIMA;Mastering+Bed+Utilization+Prediction)
 
-## Repository Contents
+</div>
 
-- **`Holt's_Winter.ipynb`**:
-  - Implements Holt's Winter Exponential Smoothing with additive and multiplicative trends and seasonality.
-  - Handles recursive 7-day rolling forecasts with refitting using real observed data.
-  - Outputs detailed performance metrics: Mean Absolute Error (MAE) and Mean Squared Error (MSE).
-  - Generates interactive visualizations of actual vs forecasted values and error metrics.
+<div align="center">
 
-- **`Auto_Sarima.ipynb`**:
-  - Implements AutoSARIMA for automated seasonal ARIMA model selection.
-  - Provides a rolling 7-day forecast, recursively refitting models with updated data.
-  - Outputs MAE and MSE metrics for error analysis.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square)](https://www.linkedin.com/in/mahmoud-ayman-311389263/)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square)](mailto:mahmoodabusaa9@gmail.com)
 
-- **Evaluation Metrics CSVs**:
-  - **`evaluation_results_all_wards_holts.csv`**: Performance metrics for Holt's Winter models.
-  - **`evaluation_results_all_wards_autosarima.csv`**: Performance metrics for AutoSARIMA models.
-  - Both CSVs store ward-wise MAE and MSE comparisons for better decision-making.
+</div>
 
-## Key Features
+---
 
-### Holt's Winter
-- Supports four variations:
-  - Additive trend and seasonality.
-  - Additive trend and seasonality with damping.
-  - Multiplicative trend and seasonality.
-  - Multiplicative trend and seasonality with damping.
-- Generates weekly forecasts with dynamic updates using observed data.
+<div align="center">
 
-### AutoSARIMA
-- Automates the ARIMA model selection process using statistical metrics like AIC and BIC.
-- Seasonal component handling for 7-day periodicity.
-- Provides robust rolling forecasts with real-time model adaptation.
+# 🕰️ Time Series Forecasting: Holt's Winter & AutoSARIMA
 
-### Evaluation and Visualization
-- **Error Metrics**: Both models output MAE and MSE values for each ward and forecasting model.
-- **Interactive Plots**: Displays actual vs forecasted values and comparative error bars for all wards.
+</div>
 
+> **A robust forecasting project to optimize hospital bed utilization using advanced time series techniques.**
+
+---
+
+## 🛠️ **Features**
+
+### Holt's Winter 📉
+- Four robust variations:
+  - **Additive Trend + Seasonality**
+  - **Multiplicative Trend + Seasonality**
+  - **Damped Additive Trend + Seasonality**
+  - **Damped Multiplicative Trend + Seasonality**
+- 📅 Weekly forecasts that dynamically adapt to real-world data.
+- 📈 Generates comprehensive performance metrics:
+  - **Mean Absolute Error (MAE)**
+  - **Mean Squared Error (MSE)**
+
+### AutoSARIMA 🤖
+- Fully automated **seasonal ARIMA** model selection.
+- Efficient handling of **7-day periodicity**.
+- Rolling 7-day forecasts with continuous model updates for real-time accuracy.
+
+### Interactive Evaluation 🧮
+- Compare actual vs forecasted values with:
+  - Interactive time series plots.
+  - Error bars for **MAE** and **MSE**.
+- CSV outputs for easy post-processing and analysis.
+
+---
+
+## 📂 **Repository Structure**
 
