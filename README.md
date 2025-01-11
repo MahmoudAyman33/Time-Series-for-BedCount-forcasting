@@ -39,8 +39,7 @@
 - Compare actual vs forecasted values with:
   - Interactive time series plots.
   - Error bars for **MAE** and **MSE**.
-- CSV outputs for easy post-processing and analysis.
-
+- CSV files containing metrics for model comparison.
 ---
 
 
